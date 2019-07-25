@@ -6,11 +6,13 @@ const app = express();
 const cors = require('cors');
 
 // Import Routes
-const postRoutes = require('./routes/posts')
+const postRoutes = require('./routes/posts');
+const screenshotRoutes = require('./routes/screenshots');
 
 // Creating MiddleWare
 app.use(bodyParser.json());
 app.use('/posts', postRoutes);
+app.use('/screenshots', screenshotRoutes);
 app.use(cors());
 
 // Connect to Database
