@@ -13,3 +13,6 @@ Create a free mongoDB at https://mlab.com/
 `npm start`
 
 Enjoy! :)
+
+## Capture screenshot of website
+Added a new endpoint to capture screenshot of the website using Headless Browser
